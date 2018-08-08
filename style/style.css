@@ -91,7 +91,7 @@ ol li
   text-align: center;
   margin: 20px auto;}
 
-#main, #menubar, #site_content, #footer
+#main, #menubar, #site_content, #footer,
 { margin-left: auto;
   margin-right: auto;}
 
@@ -111,6 +111,7 @@ ol li
 { width: 900px;
   position: relative;
   height: 140px;
+  margin-left: 5%;
   background: url(graphic.png) no-repeat;}
 
 #logo #logo_text
