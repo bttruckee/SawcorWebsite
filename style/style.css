@@ -285,15 +285,17 @@ ul#menu li a:hover
   font: 100% arial, sans-serif;}
 
 .form_settings
-{ margin: 15px 0 0 0;}
+
 
 .form_settings p
 { padding: 0 0 4px 0;}
 
 .form_settings span
-{ float: left;
-  width: 200px;
-  text-align: left;}
+{ text-align: center;
+  padding: 20px;
+  padding-bottom: 20px;
+  overflow: auto;
+  }
 
 .form_settings input, .form_settings textarea
 { padding: 5px;
