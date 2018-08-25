@@ -24,12 +24,26 @@ img
 h1, h2, h3, h4, h5, h6
 { color: #E7746F;
   letter-spacing: 0em;
-  padding: 0 0 5px 0;}
+  padding: 0 0 5px 0;
+}
 
 h1, h2, h3
 { font: normal 170% 'century gothic', arial;
   margin: 0 0 15px 0;
-  padding: 15px 0 5px 0;}
+  padding: 15px 0 5px 0;
+}
+
+h7
+{
+  font: normal 170% 'century gothic', arial;
+  padding-left: 50%;
+  padding-right: 50%
+}
+
+h8
+{
+  font: normal 170% 'century gothic', arial;
+}
 
 h2
 { font-size: 160%;
@@ -73,6 +87,13 @@ ul li
   margin: 0 0 6px 0;
   padding: 0 0 4px 5px;
   line-height: 1.5em;}
+
+main li {
+  color: #888;
+  style="width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 ol
 { margin: 8px 0 22px 20px;}
