@@ -45,6 +45,13 @@ h8
   font: normal 170% 'century gothic', arial;
 }
 
+h9
+{
+  font: normal 175% 'century gothic', arial;
+  font-weight: bold;
+}
+
+
 h2
 { font-size: 160%;
   padding: 9px 0 5px 0;}
