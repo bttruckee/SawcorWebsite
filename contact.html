@@ -10,6 +10,11 @@
   <link rel="shortcut icon" href="style/favicon.ico" type="image/x-icon">
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123787037-1"></script>
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
+
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -42,15 +47,36 @@
       <div id="content_2">
         <!-- insert the page content here -->
         <h1>Contact Us</h1>
+        <form class="gform" method="post" action="https://script.google.com/macros/s/AKfycbwicQvp4QvsdUDvp5f9f0tc8Y5nlFwG0gO-kC_CKg/exec">
+
         <p>Below is an example of how a contact form might look with this template:</p>
           <div class="form_settings">
-            <p><span>Name</span><input class="contact" type="text" name="your_name" value="" /></p>
+            <p><span>Your Name</span><input class="contact" type="text" name="your_name" value="" /></p>
             <p><span>Email Address</span><input class="contact" type="text" name="your_email" value="" /></p>
-            <p><span>Message</span><textarea class="contact textarea" rows="8" cols="50" name="your_enquiry"></textarea></p>
+            <p><span>Ask Us Something</span><textarea class="contact textarea" rows="8" cols="50" name="your_enquiry"></textarea></p>
             <p style="padding-top: 15px"><span>&nbsp;</span>
-              <form method="post" action="mailto:sawyer816@gmail.com" ><input type="submit" value="Send Email" /></form>
+
+              <button class="button">Email Us</button>
+
+
+
+
+              <div class="thankyou_message" style="display:none;">
+                <h2><em>Thanks</em> for contacting us!
+                  We will get back to you soon!</h2>
+              </div>
+
+              </form>
+
       </div>
     </div>
+
+
+
+
+
+
+
     <div id="content_footer"></div>
     <div id="footer">
       <p><a href="index.html">Home</a> | <a href="services.html">Services</a> | <a href="aboutUs.html">About Us</a> | <a href="contact.html">Contact Us</a></p>

@@ -378,3 +378,63 @@ table tr td
 { background: #E5E5DB;
   color: #47433F;
   border-top: 1px solid #FFF;}
+  aside {
+      background: #1f8dd6; /* same color as selected state on site menu */
+      padding: 0.3em 1em;
+      border-radius: 3px;
+      color: #fff;
+      margin-bottom: 2em;
+  }
+  textarea {
+    width: 100%;
+  }
+  .content-head {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 2em 0 1em;
+  }
+  .is-center {
+    text-align: center;
+  }
+  .buttonxxx {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background: #E7746F;
+    color: #FFF;
+}
+  .button {
+    background-color: #E7746F;
+    color: #FFF;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+  .button-success {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(28, 184, 65); /* this is a green */
+  }
+  .button-xlarge {
+    font-size: 125%;
+  }
+
+  #name, #email {
+    width: 50%;
+  }
+</style>
